@@ -22,8 +22,12 @@
 .funciones {
   grid-area: funciones;
   width: 50vw;
+  padding-left: 2em;
+  padding-top: 1em;
 }
-
 .portada, .funciones {
   border: solid black 2px;
+}
+.funciones .badge {
+  margin-left: 1em;
 }
