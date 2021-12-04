@@ -26,7 +26,7 @@ const Pelicula = () => {
         <p>{pelicula.sinopsis}</p>
       </div>
       <div className="funciones">
-
+      
       </div>
       {/* <h2>soy la pelicula {id_pelicula}</h2> */}
     </div>
