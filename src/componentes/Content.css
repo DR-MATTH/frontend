@@ -1,0 +1,12 @@
+.nombre-area {
+  padding-top: 1em;
+  padding-left: 1em;
+  border-bottom: solid black 2px;
+}
+.cards {
+  margin: 0 auto;
+  max-width: 950px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  gap: 50px;
+}

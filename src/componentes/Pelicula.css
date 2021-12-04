@@ -1,0 +1,29 @@
+.container {
+  margin: 10px auto;
+  display: grid;
+  grid-template-areas:  
+    "trailer trailer trailer"
+    "portada funciones funciones";
+  gap: 20px;
+}
+.trailer {
+  grid-area: trailer;
+  height: 400px;
+  width: 90vw;
+  margin: 0 auto;
+  text-align: center;
+}
+.portada {
+  grid-area: portada;
+  width: 30vw;
+  text-align: center;
+  padding: 0 1em;
+}
+.funciones {
+  grid-area: funciones;
+  width: 50vw;
+}
+
+.portada, .funciones {
+  border: solid black 2px;
+}
